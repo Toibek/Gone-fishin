@@ -17,6 +17,7 @@ public class Fish : MonoBehaviour
     {
         active = StartCoroutine(idle());
     }
+    
     IEnumerator idle()
     {
         float t = Random.Range(turnFrequency.x,turnFrequency.y);
